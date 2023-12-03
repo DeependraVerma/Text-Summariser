@@ -32,7 +32,7 @@ class ModelTrainer:
 
 
         trainer_args = TrainingArguments(
-            output_dir=self.config.root_dir, num_train_epochs=10, warmup_steps=500,
+            output_dir=self.config.root_dir, num_train_epochs=1, warmup_steps=500,
             per_device_train_batch_size=1, per_device_eval_batch_size=1,
             weight_decay=0.01, logging_steps=10,
             evaluation_strategy='steps', eval_steps=500, save_steps=1e6,

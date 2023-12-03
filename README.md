@@ -74,7 +74,7 @@ Access the application by opening your local host and port.
 ### Steps:
 
 1. Create ECR repo to store Docker image.
-   - Save the URI: `566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s`
+   - Save the URI: `774517090665.dkr.ecr.eu-north-1.amazonaws.com/text_summarizer_deependra`
 2. Create EC2 machine (Ubuntu).
 3. Install Docker on EC2 (Optional steps included).
 4. Configure EC2 as a self-hosted runner.
